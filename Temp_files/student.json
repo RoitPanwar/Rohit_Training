@@ -1,0 +1,51 @@
+{
+  "creationTime": "1657691148229",
+  "etag": "vF8+Eczo1HHpm0wQyrNOLw==",
+  "id": "sylvan-cocoa-355806:test_tables.student",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1657691148258",
+  "location": "asia-south1",
+  "numActiveLogicalBytes": "0",
+  "numBytes": "0",
+  "numLongTermBytes": "0",
+  "numLongTermLogicalBytes": "0",
+  "numRows": "0",
+  "numTotalLogicalBytes": "0",
+  "schema": {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "NAME",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "CLASS",
+        "type": "STRING"
+      },
+      {
+        "maxLength": "100",
+        "mode": "NULLABLE",
+        "name": "STATE",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "MARKS",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "Admission_date",
+        "type": "DATETIME"
+      }
+    ]
+  },
+  "selfLink": "https://bigquery.googleapis.com/bigquery/v2/projects/sylvan-cocoa-355806/datasets/test_tables/tables/student",
+  "tableReference": {
+    "datasetId": "test_tables",
+    "projectId": "sylvan-cocoa-355806",
+    "tableId": "student"
+  },
+  "type": "TABLE"
+}
