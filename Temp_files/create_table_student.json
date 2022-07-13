@@ -1,0 +1,28 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "NAME",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "CLASS",
+    "type": "STRING"
+  },
+  {
+    "maxLength": "100",
+    "mode": "NULLABLE",
+    "name": "STATE",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "MARKS",
+    "type": "INTEGER"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Admission_date",
+    "type": "DATETIME"
+  }
+]
