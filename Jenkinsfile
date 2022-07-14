@@ -29,9 +29,10 @@ pipeline {
                     while read line; do
                         echo $line
                         ls $WORKSPACE/$line
+                        gsutil cp $WORKSPACE/$line $bucket
                     done<Change_file.txt
                     cat Change_file.txt
-                    gsutil cp $WORKSPACE/$line $bucket
+                    
 
                 '''
             }
