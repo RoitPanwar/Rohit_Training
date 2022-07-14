@@ -26,6 +26,7 @@ pipeline {
                         echo $line
                     done<Change_file.txt
                     cat Change_file.txt
+                    echo $WORKSPACE
                     git clone https://github.com/RoitPanwar/Rohit_Training.git
                 '''
             }
