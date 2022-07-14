@@ -16,7 +16,7 @@ pipeline {
             steps {
                 sh '''
                     echo 'Deploying....'
-                    bucket="gs:://study_bucket_bb01183/"
+                    bucket="gs://study_bucket_bb01183/"
                     GIT_COMMIT=$(git rev-parse HEAD)
                     echo "GIT COMMIT $GIT_COMMIT"
                     echo "COMMIT $COMMIT"
