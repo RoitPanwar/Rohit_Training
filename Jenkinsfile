@@ -30,6 +30,7 @@ pipeline {
                         ls $WORKSPACE/$line
                     done<Change_file.txt
                     cat Change_file.txt
+                    gsutil cp $WORKSPACE/$line $bucket
 
                 '''
             }
