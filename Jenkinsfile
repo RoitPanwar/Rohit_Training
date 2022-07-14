@@ -14,8 +14,10 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
-                GIT_COMMIT=$(git rev-parse HEAD)
+                sh '''
+                    echo 'Deploying....'
+                    GIT_COMMIT=$(git rev-parse HEAD)
+                '''
             }
         }
     }
