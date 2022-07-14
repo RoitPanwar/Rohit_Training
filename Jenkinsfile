@@ -28,6 +28,7 @@ pipeline {
                     cat Change_file.txt
                     echo $WORKSPACE
                     git clone https://github.com/RoitPanwar/Rohit_Training.git
+                    rm -rf $WORKSPACE/Rohit_Training
                 '''
             }
         }
