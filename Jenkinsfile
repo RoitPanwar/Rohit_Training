@@ -20,7 +20,7 @@ pipeline {
                     GIT_COMMIT=$(git rev-parse HEAD)
                     echo "GIT COMMIT $GIT_COMMIT"
                     echo "COMMIT $COMMIT"
-                    PATH="$PATH:home/rohit/google-cloud-sdk/bin"
+                    PATH="$PATH:/home/rohit/google-cloud-sdk/bin"
                      echo $WORKSPACE
                     rm -rf $WORKSPACE/Rohit_Training
                     git clone https://github.com/RoitPanwar/Rohit_Training.git
